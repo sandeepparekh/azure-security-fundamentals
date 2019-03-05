@@ -43,6 +43,8 @@ You should now see two new Resource Groups. RGMELCONTOSO and RGSYDCONTOSO. Take 
 
 - Under **Favourites** or in **All Services** find and click on **Security Center**
 
+- In Getting started select **Start Trial** then click Install Agents 
+
 - Select **Security Policy** then **Edit Settings** next to your subscription in the **Policy Management** Blade
 
 - Select **Pricing tier** choose **Standard** then click **Save**
@@ -54,9 +56,18 @@ You should now see two new Resource Groups. RGMELCONTOSO and RGSYDCONTOSO. Take 
 
 Feel free to browse the other sections under settings
 
+# Step 4 : Ensure Log Analytics Agent is installed
+Let's speed up the agent installation process.
+- click on **All services** then type in **Log Analytics** select **Log Analytics workspaces**
+- You should see a DefaultWorkspace that was created by Azure Security Center. Click on that workspace
+- Scroll down to **Workspace Data Sources** and select **Virtual Machines**
+- You should see all three of our VMs. VMMELDEV, VMMELPROD and VMSYDPROD. If they are in a Not cnnected state.
+- Select each one individually and click on **Connect**
+- Wait until all three CMs show up with a green tick and marked as **This workspace**
+
 #
 
-###  Step 4 : Set off an Alert (Requires RDP access)
+###  Step 5 : Set off an Alert (Requires RDP access)
 #
 If you have RDP access follow the artice below to invoke an Alert in Azure Security Center and then after around 15 to 20 minutes come back to check on the Alert as per the article
 ### Alerts Validation in Azure Security Center (Requires RDP)
@@ -64,7 +75,7 @@ If you have RDP access follow the artice below to invoke an Alert in Azure Secur
 https://docs.microsoft.com/en-us/azure/security-center/security-center-alert-validation
 
 #
-### Step 5 : Resource Security Hygiene
+### Step 6 : Resource Security Hygiene
 
 - Under **Resource Security Hygiene** click on **Recommendations**
 
@@ -93,7 +104,7 @@ We should see that we have a couple of issues with our storage accounts
 
 Feel free to run through some of the other recommendations once this is complete. Come back after a few minutes to see that the warnings have now disappeared and your security score has increased.
 #
-### Step 6 : Enable JIT VM Access
+### Step 7 : Enable JIT VM Access
 
 - In the Azure Portal click on **All Services** and search for **Virtual Machines**
 - For each of the VMS VMMELDEV, VMMELPROD, VMSYDPROD do the following 
@@ -114,31 +125,31 @@ Here you can see existing ports that are available. Click Add to see your option
 - Select the VM you just enabled  
 - Click **Connect** and test out RDP access
 #
-### Step 7 : Enable File Integrity Monitoring
+### Step 8 : Enable File Integrity Monitoring
 - Under **Advanced Cloud Defense** click on **File Integrity Monitoring** 
 - click on the Default workspace and click **Enable File Integrity Monitoring**
 
 Data may take a while to come through so come back to this area after some time to analyse any findings.
 #
-### Step 8 : Create a Playbook
+### Step 9 : Create a Playbook
 - Run through the article below to create a Security Playbook
 
 ### Security Playbook in Azure Security Center (Preview)
 
 https://docs.microsoft.com/en-us/azure/security-center/security-center-playbooks
 #
-### Step 9 : Security Policies 
+### Step 10 : Security Policies 
 ### Working with security policies
 
 https://docs.microsoft.com/en-us/azure/security-center/tutorial-security-policy
 
 #
-### Step 10 : Monitoring and processing security events in Azure Security Center
+### Step 11 : Monitoring and processing security events in Azure Security Center
 
 https://docs.microsoft.com/en-us/azure/security-center/security-center-events-dashboard
 
 #
-### Step 11 : Azure Security Center search
+### Step 12 : Azure Security Center search
 https://docs.microsoft.com/en-us/azure/security-center/security-center-search
 #
 ### Further  Reading
