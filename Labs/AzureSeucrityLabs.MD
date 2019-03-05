@@ -1,19 +1,29 @@
 # Azure Security Fundamentals Labs
 
-Welcome to the Azufre Security Fundamentals Labs
+Welcome to the Azure Security Fundamentals Labs
 
 Suggest you use CTRL+CLICK to follow links. Which will keep this page open.
 
 #
 
-## Lab 1 - Microsoft runs on trust (30min)
+## Lab 1 - Azure Security Center Labs (120 mins)
+
+[Azure Security Center Labs ](./ASC.MD)
+
+#
+
+# Microsoft Learn Labs - available anytime
+
+#
+
+## Lab 2 - Microsoft runs on trust (30min)
 
 https://docs.microsoft.com/en-us/learn/modules/microsoft-runs-on-trust/ 
 
 
 #
 
-## Lab 2 - Secure your cloud data (2:49)
+## Lab 3 - Secure your cloud data (2:49)
 ### Modules
 #### Design for security in Azure
 #### Top 5 security items to consider before pushing to production
@@ -25,39 +35,40 @@ https://docs.microsoft.com/en-us/learn/paths/secure-your-cloud-data/
 
 #
 
-## Lab 3 - Security, responsibility and trust in Azure  (1hr 3min)
+## Lab 4 - Security, responsibility and trust in Azure  (1hr 3min)
 
 https://docs.microsoft.com/en-us/learn/modules/intro-to-security-in-azure/
 
 #
 
-## Lab 4 - Secure your Azure resources with role-based access control (RBAC) (46 mins)
+## Lab 5 - Secure your Azure resources with role-based access control (RBAC) (46 mins)
 
 https://docs.microsoft.com/en-us/learn/modules/secure-azure-resources-with-rbac/
 
 #
 
-## Lab 5 - Apply and monitor infrastructure standards with Azure Policy (46 mins)
+## Lab 6 - Apply and monitor infrastructure standards with Azure Policy (46 mins)
 
 https://docs.microsoft.com/en-us/learn/modules/intro-to-governance/
 
 
 
-## Lab 6 - Secure your Azure Storage account (45 mins)
+## Lab 7 - Secure your Azure Storage account (45 mins)
 
 https://docs.microsoft.com/en-us/learn/modules/secure-azure-storage-account/
 
 #
 
-## Lab 7 - Secure your Azure SQL Database (1hr 7mins)
+## Lab 8 - Secure your Azure SQL Database (1hr 7mins)
 
 https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-sql-database/
 
 # 
 
-## Lab 8 - Secure your Azure virtual machine disks (59 mins)
+## Lab 9 - Secure your Azure virtual machine disks (59 mins)
 
 https://docs.microsoft.com/en-us/learn/modules/secure-your-azure-virtual-machine-disks/
+
 
 #
 
