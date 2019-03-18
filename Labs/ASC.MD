@@ -168,6 +168,10 @@ https://docs.microsoft.com/en-us/azure/security-center/tutorial-security-inciden
 ### Azure Monitor Documentation
 https://docs.microsoft.com/en-au/azure/azure-monitor/
 
+### Log Analytics Log Analytics Demo environment to practice Kusto Query
+http://aka.ms/LADemo
+
+
 # 
 
 [Back to Labs](./AzureSeucrityLabs.MD)
