@@ -56,7 +56,7 @@ You should now see two new Resource Groups. RGMELCONTOSO and RGSYDCONTOSO. Take 
 
 Feel free to browse the other sections under settings
 
-# Step 4 : Ensure Log Analytics Agent is installed
+### Step 4 : Ensure Log Analytics Agent is installed
 Let's speed up the agent installation process.
 - click on **All services** then type in **Log Analytics** select **Log Analytics workspaces**
 - You should see a DefaultWorkspace that was created by Azure Security Center. Click on that workspace
@@ -65,17 +65,7 @@ Let's speed up the agent installation process.
 - Select each one individually and click on **Connect**
 - Wait until all three CMs show up with a green tick and marked as **This workspace**
 
-#
-
-###  Step 5 : Set off an Alert (Requires RDP access)
-#
-If you have RDP access follow the artice below to invoke an Alert in Azure Security Center and then after around 15 to 20 minutes come back to check on the Alert as per the article
-### Alerts Validation in Azure Security Center (Requires RDP)
-
-https://docs.microsoft.com/en-us/azure/security-center/security-center-alert-validation
-
-#
-### Step 6 : Resource Security Hygiene
+### Step 5 : Resource Security Hygiene
 
 - Under **Resource Security Hygiene** click on **Recommendations**
 
@@ -131,31 +121,41 @@ Here you can see existing ports that are available. Click Add to see your option
 
 Data may take a while to come through so come back to this area after some time to analyse any findings.
 #
-### Step 9 : Create a Playbook
+
+### Optional Steps and Further  Reading
+
+### Create a Playbook
 - Run through the article below to create a Security Playbook
 
 ### Security Playbook in Azure Security Center (Preview)
 
 https://docs.microsoft.com/en-us/azure/security-center/security-center-playbooks
 #
-### Step 10 : Security Policies 
+###  Security Policies 
 ### Working with security policies
 
 https://docs.microsoft.com/en-us/azure/security-center/tutorial-security-policy
 
 #
-### Step 11 : Monitoring and processing security events in Azure Security Center
+### Monitoring and processing security events in Azure Security Center
 
 https://docs.microsoft.com/en-us/azure/security-center/security-center-events-dashboard
 
 #
-### Step 12 : Azure Security Center search
+### Azure Security Center search
 https://docs.microsoft.com/en-us/azure/security-center/security-center-search
 #
-### Further  Reading
+
 ### Integrate security solutions in Azure Security Center
 
 https://docs.microsoft.com/en-us/azure/security-center/security-center-partner-integration
+
+#
+
+### Alerts Validation in Azure Security Center (Requires RDP)
+
+https://docs.microsoft.com/en-us/azure/security-center/security-center-alert-validation
+
 
 #
 
